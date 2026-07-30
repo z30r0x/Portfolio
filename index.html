@@ -1,572 +1,482 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>TOKA_SAYED</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TOKA SAYED</title>
 
-  <!-- Security shield favicon (inline SVG as data URI) -->
-  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%230a0a0a'/%3E%3Cpath d='M16 4 L26 8.5 V17 C26 23 16 28 16 28 C16 28 6 23 6 17 V8.5 Z' fill='none' stroke='%23f5f5f5' stroke-width='1.8' stroke-linejoin='round'/%3E%3Cpath d='M12 16.5 L14.8 19.5 L20 13.5' stroke='%23f5f5f5' stroke-width='1.8' stroke-linecap='round' stroke-linejoin='round' fill='none'/%3E%3C/svg%3E" />
+    <!-- Security shield favicon (inline SVG as data URI) -->
+    <link rel="icon" type="image/svg+xml"
+        href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%230a0a0a'/%3E%3Cpath d='M16 4 L26 8.5 V17 C26 23 16 28 16 28 C16 28 6 23 6 17 V8.5 Z' fill='none' stroke='%23f5f5f5' stroke-width='1.8' stroke-linejoin='round'/%3E%3Cpath d='M12 16.5 L14.8 19.5 L20 13.5' stroke='%23f5f5f5' stroke-width='1.8' stroke-linecap='round' stroke-linejoin='round' fill='none'/%3E%3C/svg%3E" />
 
-  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="styles.css" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300&family=Instrument+Serif:ital@0;1&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
 </head>
+
 <body>
 
-<div class="cursor" id="cursor"></div>
-<div class="cursor-ring" id="cursorRing"></div>
+    <div class="cursor" id="cursor"></div>
+    <div class="cursor-ring" id="cursorRing"></div>
 
-<!-- NAV -->
-<nav>
-  <div class="nav-logo">Toka <span>Sayed</span></div>
-  <ul class="nav-links">
-    <li><a href="#about">About</a></li>
-    <li><a href="#experience">Experience</a></li>
-    <li><a href="#education">Education</a></li>
-    <li><a href="#projects">Projects</a></li>
-    <li><a href="#contact">Contact</a></li>
-  </ul>
-</nav>
+    <!-- NAV -->
+    <nav>
+        <div class="nav-logo">Toka <span>Sayed</span></div>
+        <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
 
-<!-- HERO -->
-<div id="hero">
-  <div class="hero-dots"></div>
-  <div class="hero-fade"></div>
-  <div class="hero-inner">
-    <div>
-      <div class="hero-badge"><div class="badge-dot"></div>Available for opportunities</div>
-      <h1 class="hero-title">Toka<br><em>Sayed</em></h1>
-      <p class="hero-desc">Junior Flutter Mobile Developer based in Asyut, Egypt — crafting elegant mobile experiences with Dart &amp; Flutter, exploring the web, and diving into security.</p>
-      <div class="hero-ctas">
-        <a href="#projects" class="btn-primary">View Projects</a>
-        <a href="https://github.com/z30r0x" target="_blank" class="btn-ghost">GitHub ↗</a>
-      </div>
-    </div>
-    <div class="hero-card">
-      <div class="hc-header">
-        <div class="hc-dot r"></div>
-        <div class="hc-dot y"></div>
-        <div class="hc-dot g"></div>
-        <span class="hc-file">toka_sayed.dart</span>
-      </div>
-      <div class="hc-body">
-        <span class="hc-line hc-comment">// Developer profile</span>
-        <span class="hc-line"><span class="kw">class </span><span class="cl">TokaSayed</span> {</span>
-        <span class="hc-line hc-indent"><span class="pr">String</span> role = <span class="st">'Flutter Dev'</span>;</span>
-        <span class="hc-line hc-indent"><span class="pr">String</span> location = <span class="st">'Asyut, Egypt'</span>;</span>
-        <span class="hc-line hc-indent"><span class="pr">List</span>&lt;<span class="pr">String</span>&gt; stack = [</span>
-        <span class="hc-line hc-indent2"><span class="st">'Dart'</span>, <span class="st">'Flutter'</span>,</span>
-        <span class="hc-line hc-indent2"><span class="st">'HTML/CSS'</span>, <span class="st">'Bootstrap'</span>,</span>
-        <span class="hc-line hc-indent2"><span class="st">'Git'</span>, <span class="st">'Pentesting'</span>,</span>
-        <span class="hc-line hc-indent">];</span>
-        <span class="hc-line">}</span>
-        <span class="hc-line">&nbsp;</span>
-        <span class="hc-line hc-comment">// github.com/z30r0x</span>
-        <span class="t-cursor"></span>
-      </div>
-    </div>
-  </div>
-  <div class="scroll-ind">
-    <span>Scroll</span>
-    <div class="scroll-line"></div>
-  </div>
-</div>
-
-<!-- ABOUT -->
-<section id="about">
-  <div class="sec-header">
-    <span class="sec-num">01</span>
-    <h2 class="sec-title">About Me</h2>
-    <div class="sec-line"></div>
-  </div>
-  <div class="about-grid">
-    <div class="about-text">
-      <p>I'm <strong>Toka Sayed</strong>, a <span class="hi">Junior Flutter Mobile Developer</span> and Computer Science student at Assiut University (Mathematics Dept.)</p>
-      <p>My journey spans <strong>mobile development</strong> with Dart &amp; Flutter, <strong>frontend web development</strong> with HTML/CSS/Bootstrap, and hands-on <strong>penetration testing</strong> and ethical hacking.</p>
-      <p>I've trained with <strong>NTI (National Telecommunication Institute)</strong>, <strong>Vodafone Egypt</strong>, and <strong>Google Developer Groups</strong> — building real projects, leading teams, and earning certs along the way.</p>
-      <p>Currently exploring <strong>API integration</strong> in Flutter and sharpening my security skills through TryHackMe.</p>
-    </div>
-    <div>
-      <div class="subsec-label">// Tech Stack</div>
-      <div class="skills-grid">
-        <div class="skill-chip"><div class="dot" style="background:#fff"></div>Dart</div>
-        <div class="skill-chip"><div class="dot" style="background:#fff"></div>Flutter</div>
-        <div class="skill-chip"><div class="dot" style="background:#888"></div>HTML5 / CSS3</div>
-        <div class="skill-chip"><div class="dot" style="background:#888"></div>Bootstrap</div>
-        <div class="skill-chip"><div class="dot" style="background:#888"></div>JavaScript</div>
-        <div class="skill-chip"><div class="dot" style="background:#555"></div>Git / GitHub</div>
-        <div class="skill-chip"><div class="dot" style="background:#555"></div>MATLAB</div>
-        <div class="skill-chip"><div class="dot" style="background:#555"></div>Java / OOP</div>
-        <div class="skill-chip"><div class="dot" style="background:#333"></div>Pentesting</div>
-        <div class="skill-chip"><div class="dot" style="background:#333"></div>Linux CLI</div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- EXPERIENCE -->
-<section id="experience" class="section-notop">
-  <div class="sec-header">
-    <span class="sec-num">02</span>
-    <h2 class="sec-title">Experience</h2>
-    <div class="sec-line"></div>
-  </div>
-  <div class="timeline">
-    <div class="tl-item">
-      <div class="tl-dot"></div>
-      <div class="tl-date">Jun 2026 — Present · 2 mos</div>
-      <div class="tl-role">Penetration Tester</div>
-      <div class="tl-company">Tips Hindawi <span class="tl-tag">Internship</span> <span class="tl-tag">Remote</span></div>
-      <ul class="tl-bullets">
-        <li>Performing penetration testing with focus on encryption and cryptography assessments</li>
-        <li>Identifying and exploiting API security vulnerabilities across web application targets</li>
-        <li>Testing file upload vulnerability vectors in controlled environments</li>
-        <li>Conducting network security assessments and reporting infrastructure weaknesses</li>
-      </ul>
-      <div class="tl-skills">
-        <span class="tl-skill-tag">Encryption</span>
-        <span class="tl-skill-tag">Cryptography</span>
-        <span class="tl-skill-tag">Network Security</span>
-        <span class="tl-skill-tag">API Security</span>
-        <span class="tl-skill-tag">File Upload Vulnerability</span>
-        <span class="tl-skill-tag">XSS</span>
-        <span class="tl-skill-tag">CSRF</span>
-        <span class="tl-skill-tag">Authentication</span>
-        <span class="tl-skill-tag">Broken Access Control</span>
-      </div>
-    </div>
-    <div class="tl-item">
-      <div class="tl-dot"></div>
-      <div class="tl-date">Jan 2026 — Mar 2026</div>
-      <div class="tl-role">Flutter Mobile Developer</div>
-      <div class="tl-company">National Telecommunication Institute (NTI) | Creativa <span class="tl-tag">Onsite</span></div>
-      <ul class="tl-bullets">
-        <li>Android mobile development using Dart and Flutter</li>
-        <li>API integration and backend communication in Flutter apps</li>
-        <li>Collaborative real-life projects with a team</li>
-      </ul>
-    </div>
-    <div class="tl-item">
-      <div class="tl-dot"></div>
-      <div class="tl-date">Mar 2025 — Aug 2025</div>
-      <div class="tl-role">Penetration Tester</div>
-      <div class="tl-company">Google Developer Groups — CIC <span class="tl-tag">Remote</span></div>
-      <ul class="tl-bullets">
-        <li>Simulated real-world attacks ethically using industry methodologies</li>
-        <li>Security assessments and attacker-mindset vulnerability discovery</li>
-      </ul>
-    </div>
-    <div class="tl-item">
-      <div class="tl-dot"></div>
-      <div class="tl-date">Feb 2025</div>
-      <div class="tl-role">Frontend Web Developer</div>
-      <div class="tl-company">Vodafone Egypt <span class="tl-tag">Hybrid</span></div>
-      <ul class="tl-bullets">
-        <li>Web technologies: HTML, CSS, Bootstrap; professional Git workflow</li>
-        <li>Led a 3-member team, placed 4th in the final competition</li>
-      </ul>
-    </div>
-  </div>
-</section>
-
-<!-- EDUCATION -->
-<section id="education" class="section-notop">
-  <div class="sec-header">
-    <span class="sec-num">03</span>
-    <h2 class="sec-title">Education</h2>
-    <div class="sec-line"></div>
-  </div>
-
-  <div class="edu-card">
-    <div>
-      <div class="edu-degree">B.Sc. Computer Science — Mathematics Department</div>
-      <div class="edu-school">Assiut University &nbsp;·&nbsp; 2024 — 2028 (Expected)</div>
-      <div class="edu-pills">
-        <span class="edu-pill">MATLAB</span>
-        <span class="edu-pill">Java</span>
-        <span class="edu-pill">OOP</span>
-        <span class="edu-pill">Teamwork</span>
-        <span class="edu-pill">Logical Thinking</span>
-      </div>
-    </div>
-  </div>
-
-  <div class="subsec-label" style="margin-top:52px">// Achievements</div>
-  <div class="achieve-grid">
-
-    <div class="achieve-card">
-      <div class="achieve-icon">
-        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
-      </div>
-      <div class="achieve-body">
-        <div class="achieve-title">4th Place — Vodafone Egypt Competition</div>
-        <div class="achieve-sub">Frontend Web Dev · Feb 2025 · Led 3-member team out of all competing teams</div>
-      </div>
-    </div>
-
-    <div class="achieve-card">
-      <div class="achieve-icon">
-        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
-      </div>
-      <div class="achieve-body">
-        <div class="achieve-title">TryHackMe — Rank #20,585 · Top 2% Globally</div>
-        <div class="achieve-sub">Profile: z30r0x · Cybersecurity challenges &amp; CTFs</div>
-      </div>
-    </div>
-
-    <div class="achieve-card">
-      <div class="achieve-icon">
-        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
-      </div>
-      <div class="achieve-body">
-        <div class="achieve-title">Codeforces — Contest Rating 398</div>
-        <div class="achieve-sub">Handle: toka_sayed · Competitive programming</div>
-      </div>
-    </div>
-
-    <div class="achieve-card">
-      <div class="achieve-icon">
-        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg>
-      </div>
-      <div class="achieve-body">
-        <div class="achieve-title">Assiut University — GPA 3.26 / 4.0</div>
-        <div class="achieve-sub">B.Sc. Computer Science · Mathematics Dept. · 2024–2028</div>
-      </div>
-    </div>
-
-  </div>
-
-  <div class="subsec-label" style="margin-top:52px">// Certificates</div>
-  <div class="certs-grid">
-    <div class="cert-card">
-      <div class="cert-name">Pre Security</div>
-      <div class="cert-issuer">TryHackMe · Aug — Sep 2025</div>
-      <div class="cert-skills">Networking Fundamentals · Linux Commands · HTTP/HTTPS</div>
-    </div>
-    <div class="cert-card">
-      <div class="cert-name">Introduction to Frontend Development</div>
-      <div class="cert-issuer">Meta | Coursera · Feb — Apr 2023</div>
-      <div class="cert-skills">CSS · HTML · JavaScript · React.js · Bootstrap</div>
-    </div>
-  </div>
-</section>
-
-<!-- PROJECTS -->
-<section id="projects" class="section-notop">
-  <div class="sec-header">
-    <span class="sec-num">04</span>
-    <h2 class="sec-title">Projects</h2>
-    <div class="sec-line"></div>
-  </div>
-  <div class="proj-filter">
-    <button class="filter-btn active" onclick="filterProjects('all', this)">All</button>
-    <button class="filter-btn" onclick="filterProjects('web', this)">Web</button>
-    <button class="filter-btn" onclick="filterProjects('mobile', this)">Mobile</button>
-    <button class="filter-btn" onclick="filterProjects('security', this)">Security</button>
-  </div>
-  <div class="proj-grid" id="projGrid">
-    <div class="gh-loading">
-      <div class="gh-spinner"></div>
-      <span>Fetching GitHub repositories…</span>
-    </div>
-  </div>
-</section>
-
-<!-- CONTACT -->
-<section id="contact" class="section-notop">
-  <div class="sec-header">
-    <span class="sec-num">05</span>
-    <h2 class="sec-title">Contact</h2>
-    <div class="sec-line"></div>
-  </div>
-  <div class="contact-grid">
-    <div class="contact-left">
-      <h3>Let's build<br><em>something</em><br>together.</h3>
-      <p>Open to internships, freelance projects, and full-time opportunities. Have a Flutter app or frontend idea? Let's talk.</p>
-      <div class="contact-items">
-        <a href="/cdn-cgi/l/email-protection#b6c2d9ddd7c5d7cfd3d2dbf6d1dbd7dfda98d5d9db" class="contact-item">
-          <span class="ci-icon">✉️</span>
-          <div>
-            <div class="ci-label">Email</div>
-            <div class="ci-val"><span class="__cf_email__" data-cfemail="10647f7b7163716975747d50777d71797c3e737f7d">[email&#160;protected]</span></div>
-          </div>
-        </a>
-        <a href="tel:+201002874755" class="contact-item">
-          <span class="ci-icon">📱</span>
-          <div>
-            <div class="ci-label">Phone</div>
-            <div class="ci-val">+20 100 287 4755</div>
-          </div>
-        </a>
-        <a href="https://linkedin.com/in/TokaSayed" target="_blank" class="contact-item">
-          <span class="ci-icon">💼</span>
-          <div>
-            <div class="ci-label">LinkedIn</div>
-            <div class="ci-val">linkedin.com/in/TokaSayed</div>
-          </div>
-        </a>
-        <a href="https://github.com/z30r0x" target="_blank" class="contact-item">
-          <span class="ci-icon">🐙</span>
-          <div>
-            <div class="ci-label">GitHub</div>
-            <div class="ci-val">github.com/z30r0x</div>
-          </div>
-        </a>
-      </div>
-    </div>
-    <div>
-      <div class="contact-form">
-        <div class="form-group">
-          <label class="form-label" for="form-name">Name</label>
-          <input id="form-name" type="text" class="form-input" placeholder="Your name" />
+    <!-- HERO -->
+    <div id="hero">
+        <div class="hero-dots"></div>
+        <div class="hero-fade"></div>
+        <div class="hero-inner">
+            <div>
+                <div class="hero-badge">
+                    <div class="badge-dot"></div>Available for opportunities
+                </div>
+                <h1 class="hero-title">Toka<br><em>Sayed</em></h1>
+                <p class="hero-desc">Junior Flutter Mobile Developer based in Asyut, Egypt — crafting elegant mobile
+                    experiences with Dart &amp; Flutter, exploring the web, and diving into security.</p>
+                <div class="hero-ctas">
+                    <a href="#projects" class="btn-primary">View Projects</a>
+                    <a href="https://drive.google.com/drive/folders/1hTnt0r2Ajoc7QWCSgwHTVSe5VN4c9V_M?usp=sharing"
+                        target="_blank" class="btn-ghost">CV ↗</a>
+                    <a href="https://github.com/z30r0x" target="_blank" class="btn-ghost">GitHub ↗</a>
+                </div>
+            </div>
+            <div class="hero-card">
+                <div class="hc-header">
+                    <div class="hc-dot r"></div>
+                    <div class="hc-dot y"></div>
+                    <div class="hc-dot g"></div>
+                    <span class="hc-file">toka_sayed.dart</span>
+                </div>
+                <div class="hc-body">
+                    <span class="hc-line hc-comment">// Developer profile</span>
+                    <span class="hc-line"><span class="kw">class </span><span class="cl">TokaSayed</span> {</span>
+                    <span class="hc-line hc-indent"><span class="pr">String</span> role = <span class="st">'Flutter
+                            Dev'</span>;</span>
+                    <span class="hc-line hc-indent"><span class="pr">String</span> location = <span class="st">'Asyut,
+                            Egypt'</span>;</span>
+                    <span class="hc-line hc-indent"><span class="pr">List</span>&lt;<span class="pr">String</span>&gt;
+                        stack = [</span>
+                    <span class="hc-line hc-indent2"><span class="st">'Dart'</span>, <span
+                            class="st">'Flutter'</span>,</span>
+                    <span class="hc-line hc-indent2"><span class="st">'HTML/CSS'</span>, <span
+                            class="st">'Bootstrap'</span>,</span>
+                    <span class="hc-line hc-indent2"><span class="st">'Git'</span>, <span
+                            class="st">'Pentesting'</span>,</span>
+                    <span class="hc-line hc-indent">];</span>
+                    <span class="hc-line">}</span>
+                    <span class="hc-line">&nbsp;</span>
+                    <span class="hc-line hc-comment">// github.com/z30r0x</span>
+                    <span class="t-cursor"></span>
+                </div>
+            </div>
         </div>
-        <div class="form-group">
-          <label class="form-label" for="form-email">Email</label>
-          <input id="form-email" type="email" class="form-input" placeholder="your@email.com" />
+        <div class="scroll-ind">
+            <span>Scroll</span>
+            <div class="scroll-line"></div>
         </div>
-        <div class="form-group">
-          <label class="form-label" for="form-message">Message</label>
-          <textarea id="form-message" class="form-textarea" placeholder="Tell me about your project…"></textarea>
-        </div>
-        <div id="form-error" style="display:none;font-size:.75rem;color:#e05555;margin-top:-4px;"></div>
-        <button class="form-submit" onclick="handleSubmit(this)">Send Message</button>
-      </div>
     </div>
-  </div>
-</section>
 
-<footer>
-  <div class="footer-brand">Toka Sayed</div>
-  <div class="footer-text">© 2026 — Junior Flutter Mobile Developer</div>
-  <div class="footer-links">
-    <a href="https://github.com/z30r0x" target="_blank">GitHub</a>
-    <a href="https://linkedin.com/in/TokaSayed" target="_blank">LinkedIn</a>
-    <a href="/cdn-cgi/l/email-protection#45312a2e2436243c202128052228242c296b262a28">Email</a>
-  </div>
-</footer>
-
-<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
-/* ── Cursor ── */
-const cur  = document.getElementById('cursor');
-const ring = document.getElementById('cursorRing');
-let mx = 0, my = 0, rx = 0, ry = 0;
-
-document.addEventListener('mousemove', e => {
-  mx = e.clientX; my = e.clientY;
-  cur.style.left = mx + 'px';
-  cur.style.top  = my + 'px';
-});
-
-(function animRing() {
-  rx += (mx - rx) * 0.12;
-  ry += (my - ry) * 0.12;
-  ring.style.left = rx + 'px';
-  ring.style.top  = ry + 'px';
-  requestAnimationFrame(animRing);
-})();
-
-function addHover(sel) {
-  document.querySelectorAll(sel).forEach(el => {
-    el.addEventListener('mouseenter', () => {
-      cur.style.width  = '20px'; cur.style.height  = '20px';
-      ring.style.width = '54px'; ring.style.height = '54px';
-    });
-    el.addEventListener('mouseleave', () => {
-      cur.style.width  = '12px'; cur.style.height  = '12px';
-      ring.style.width = '38px'; ring.style.height = '38px';
-    });
-  });
-}
-addHover('a, button, .skill-chip, .proj-card, .contact-item, .filter-btn, .tl-item, .achieve-card');
-
-/* ── Scroll reveal ── */
-const obs = new IntersectionObserver(entries => {
-  entries.forEach((e, i) => {
-    if (e.isIntersecting) setTimeout(() => e.target.classList.add('visible'), i * 80);
-  });
-}, { threshold: 0.1 });
-
-document.querySelectorAll('.tl-item, .cert-card, .edu-card, .achieve-card').forEach(el => obs.observe(el));
-
-/* ── Active nav highlight ── */
-window.addEventListener('scroll', () => {
-  let current = '';
-  document.querySelectorAll('section').forEach(s => {
-    if (window.scrollY >= s.offsetTop - 220) current = s.id;
-  });
-  document.querySelectorAll('.nav-links a').forEach(a => {
-    a.style.color = a.getAttribute('href') === '#' + current ? 'var(--text)' : '';
-  });
-});
-
-/* ── SVG fallback banners (used only when no image is set) ── */
-const BANNERS = {
-  default_mobile: `<svg viewBox="0 0 400 180" xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" preserveAspectRatio="xMidYMid slice"><defs><linearGradient id="gm" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#101010"/><stop offset="100%" stop-color="#1e1e1e"/></linearGradient></defs><rect width="400" height="180" fill="url(#gm)"/><rect x="166" y="22" width="68" height="116" rx="12" fill="none" stroke="#2a2a2a" stroke-width="1.5"/><rect x="178" y="36" width="44" height="72" rx="3" fill="#181818"/><circle cx="200" cy="124" r="6" fill="none" stroke="#2e2e2e" stroke-width="1.5"/><text x="200" y="158" text-anchor="middle" fill="#333" font-size="10" font-family="monospace" letter-spacing="4">MOBILE APP</text></svg>`,
-
-  default_web: `<svg viewBox="0 0 400 180" xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" preserveAspectRatio="xMidYMid slice"><defs><linearGradient id="gw" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#111"/><stop offset="100%" stop-color="#1c1c1c"/></linearGradient></defs><rect width="400" height="180" fill="url(#gw)"/><rect x="88" y="42" width="224" height="96" rx="6" fill="none" stroke="#252525" stroke-width="1.5"/><rect x="88" y="42" width="224" height="24" rx="6" fill="#181818" stroke="#2a2a2a" stroke-width="1"/><circle cx="106" cy="54" r="4" fill="#252525"/><circle cx="120" cy="54" r="4" fill="#252525"/><circle cx="134" cy="54" r="4" fill="#252525"/><rect x="104" y="82" width="90" height="7" rx="2" fill="#222"/><rect x="104" y="97" width="130" height="5" rx="2" fill="#1c1c1c"/><rect x="104" y="110" width="110" height="5" rx="2" fill="#1c1c1c"/><text x="200" y="158" text-anchor="middle" fill="#333" font-size="10" font-family="monospace" letter-spacing="4">WEB PROJECT</text></svg>`,
-
-  default_security: `<svg viewBox="0 0 400 180" xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" preserveAspectRatio="xMidYMid slice"><defs><linearGradient id="gs" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#0a0a0a"/><stop offset="100%" stop-color="#181818"/></linearGradient></defs><rect width="400" height="180" fill="url(#gs)"/><path d="M200 30 l44 20 v36 c0 24-44 48-44 48s-44-24-44-48V50z" fill="none" stroke="#2a2a2a" stroke-width="1.5"/><path d="M187 92 l9 9 18-18" stroke="#444" stroke-width="2" stroke-linecap="round" fill="none"/><text x="200" y="158" text-anchor="middle" fill="#333" font-size="10" font-family="monospace" letter-spacing="4">SECURITY</text></svg>`
-};
-
-function getFallbackBanner(p) {
-  if (p.type === 'security') return BANNERS.default_security;
-  if (p.type === 'mobile')   return BANNERS.default_mobile;
-  return BANNERS.default_web;
-}
-
-/* ── Projects — exact data from CV & repo links ── */
-const PROJECTS = [
-  {
-    name:  'BMI Calculator',
-    desc:  'A simple UI app that calculates Body Mass Index based on the user\'s weight and height, with real-time health classification, custom UI widgets, and input validation.',
-    lang:  'Dart, Flutter',
-    type:  'mobile',
-    year:  '2026',
-    url:   'https://github.com/z30r0x/BMI_calculator',
-    image: 'images/bmi.png'
-  },
-  {
-    name:  'Notes App',
-    desc:  'A simple UI app to create, edit, and delete notes. Features full CRUD operations, local persistence, state management, and a clean Material Design interface.',
-    lang:  'Dart, Flutter',
-    type:  'mobile',
-    year:  '2026',
-    url:   'https://github.com/z30r0x/Notes_App',
-    image: 'images/notes.png'
-  },
-  {
-    name:  'Booking App',
-    desc:  'A Flutter booking application with date and time selection, reservation management, and a clean intuitive user interface built with Dart and Flutter.',
-    lang:  'Dart, Flutter',
-    type:  'mobile',
-    year:  '2026',
-    url:   'https://github.com/z30r0x/Booking_App',
-    image: 'images/booking.png'
-  },
-  {
-    name:  'E-Commerce App',
-    desc:  'NTI graduation project — a multi-screen Flutter shopping app with product listings, cart management, RESTful API integration, and a complete user authentication flow.',
-    lang:  'Dart, Flutter',
-    type:  'mobile',
-    year:  '2026',
-    url:   'https://github.com/z30r0x/E-Commerce_app',
-    image: 'images/ecommerce.png'
-  },
-  {
-    name:  'Authentication App',
-    desc:  'A Flutter app with full-screen login and registration flows, form validation, and state management — demonstrating secure authentication UI patterns.',
-    lang:  'Dart, Flutter',
-    type:  'mobile',
-    year:  '2026',
-    url:   'https://github.com/z30r0x/Authentication_App',
-    image: 'images/authentication.png'
-  },
-  {
-    name:  'Asyut Hack Club',
-    desc:  'Community website for the Asyut Hack Club — a hub for local developers and cybersecurity enthusiasts, featuring events, resources, and team information.',
-    lang:  'HTML, CSS',
-    type:  'web',
-    year:  '2025',
-    url:   'https://github.com/z30r0x/Asyut_Hack_Club',
-    image: 'images/hackclub.png'
-  },
-  {
-    name:  'School Management System',
-    desc:  'A multi-role responsive web app for student and staff management, built with HTML5, CSS3, and Bootstrap 5, with GitHub-based collaborative workflow.',
-    lang:  'HTML, Bootstrap',
-    type:  'web',
-    year:  '2025',
-    url:   'https://github.com/z30r0x',
-    image: 'images/SOHO.png'
-  },
-  {
-    name:  'Course Application Form',
-    desc:  'An accessible, responsive multi-step course application form built with advanced HTML and CSS, featuring client-side validation and a polished UX.',
-    lang:  'HTML, CSS',
-    type:  'web',
-    year:  '2023',
-    url:   'https://github.com/z30r0x',
-    image: 'images/courseform.png'
-  }
-];
-
-/* ── Render ── */
-function renderProjects(list) {
-  const grid = document.getElementById('projGrid');
-  grid.innerHTML = list.map(p => `
-    <div class="proj-card pb-${p.type}" data-type="${p.type}">
-      <div class="proj-banner">
-        ${p.image
-          ? `<img src="${p.image}" alt="${p.name} screenshot" loading="lazy" />`
-          : getFallbackBanner(p)
-        }
-      </div>
-      <div class="proj-body">
-        <div class="proj-card-label">Project</div>
-        <div class="proj-name">${p.name}</div>
-        <div class="proj-meta">${p.type} &nbsp;·&nbsp; ${p.year}</div>
-        <div class="proj-desc">${p.desc}</div>
-        <div class="proj-skills">
-          ${p.lang.split(',').map(t => `<span class="skill-tag">${t.trim()}</span>`).join('')}
+    <!-- ABOUT -->
+    <section id="about">
+        <div class="sec-header">
+            <span class="sec-num">01</span>
+            <h2 class="sec-title">About Me</h2>
+            <div class="sec-line"></div>
         </div>
-        <a href="${p.url}" target="_blank" class="proj-link">View on GitHub →</a>
-      </div>
-    </div>
-  `).join('');
-  document.querySelectorAll('.proj-card').forEach(el => obs.observe(el));
-  addHover('.proj-card');
-}
+        <div class="about-grid">
+            <div class="about-text">
+                <p>I'm <strong>Toka Sayed</strong>, a <span class="hi">Junior Flutter Mobile Developer</span> and
+                    Computer Science student at Assiut University (Mathematics Dept.)</p>
+                <p>My journey spans <strong>mobile development</strong> with Dart &amp; Flutter, <strong>frontend web
+                        development</strong> with HTML/CSS/Bootstrap, and hands-on <strong>penetration testing</strong>
+                    and ethical hacking.</p>
+                <p>I've trained with <strong>NTI (National Telecommunication Institute)</strong>, <strong>Vodafone
+                        Egypt</strong>, and <strong>Google Developer Groups</strong> — building real projects, leading
+                    teams, and earning certs along the way.</p>
+                <p>Currently exploring <strong>API integration</strong> in Flutter and sharpening my security skills
+                    through TryHackMe.</p>
+            </div>
+            <div>
+                <div class="subsec-label">// Tech Stack</div>
+                <div class="skills-grid">
+                    <div class="skill-chip">
+                        <div class="dot" style="background:#fff"></div>Dart
+                    </div>
+                    <div class="skill-chip">
+                        <div class="dot" style="background:#fff"></div>Flutter
+                    </div>
+                    <div class="skill-chip">
+                        <div class="dot" style="background:#888"></div>HTML5 / CSS3
+                    </div>
+                    <div class="skill-chip">
+                        <div class="dot" style="background:#888"></div>Bootstrap
+                    </div>
+                    <div class="skill-chip">
+                        <div class="dot" style="background:#888"></div>JavaScript
+                    </div>
+                    <div class="skill-chip">
+                        <div class="dot" style="background:#555"></div>Git / GitHub
+                    </div>
+                    <div class="skill-chip">
+                        <div class="dot" style="background:#555"></div>MATLAB
+                    </div>
+                    <div class="skill-chip">
+                        <div class="dot" style="background:#555"></div>Java / OOP
+                    </div>
+                    <div class="skill-chip">
+                        <div class="dot" style="background:#333"></div>Pentesting
+                    </div>
+                    <div class="skill-chip">
+                        <div class="dot" style="background:#333"></div>Linux CLI
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-function filterProjects(type, btn) {
-  document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
-  btn.classList.add('active');
-  document.querySelectorAll('.proj-card').forEach(c => {
-    c.classList.toggle('hidden', type !== 'all' && c.dataset.type !== type);
-  });
-}
+    <!-- EXPERIENCE -->
+    <section id="experience" class="section-notop">
+        <div class="sec-header">
+            <span class="sec-num">02</span>
+            <h2 class="sec-title">Experience</h2>
+            <div class="sec-line"></div>
+        </div>
+        <div class="timeline">
 
-/* ── Always render from PROJECTS (canonical source of truth) ── */
-renderProjects(PROJECTS);
+            <div class="tl-item">
+                <div class="tl-dot"></div>
+                <div class="tl-date">Jun 2026 — Present</div>
+                <div class="tl-role">Penetration Tester</div>
+                <div class="tl-company">Tips Hindawi <span class="tl-tag">Internship</span> <span
+                        class="tl-tag">Remote</span></div>
+                <ul class="tl-bullets">
+                    <li>Performing penetration testing with focus on encryption and cryptography assessments</li>
+                    <li>Identifying and exploiting API security vulnerabilities across web application targets</li>
+                    <li>Testing file upload vulnerability vectors and broken access control in controlled environments
+                    </li>
+                    <li>Conducting network security assessments covering XSS, CSRF, and authentication bypass techniques
+                    </li>
+                </ul>
+            </div>
 
-/* ── Contact form ── */
-function handleSubmit(btn) {
-  const name    = document.getElementById('form-name').value.trim();
-  const email   = document.getElementById('form-email').value.trim();
-  const message = document.getElementById('form-message').value.trim();
-  const errorEl = document.getElementById('form-error');
+            <div class="tl-item">
+                <div class="tl-dot"></div>
+                <div class="tl-date">Jan 2026 — Mar 2026</div>
+                <div class="tl-role">Flutter Mobile Developer</div>
+                <div class="tl-company">National Telecommunication Institute (NTI) | Creativa <span
+                        class="tl-tag">Onsite</span></div>
+                <ul class="tl-bullets">
+                    <li>Built and deployed Android mobile applications using Dart and Flutter, applying clean
+                        architecture and state management patterns</li>
+                    <li>Integrated RESTful APIs with backend services, enabling dynamic data fetching and real-time UI
+                        updates</li>
+                    <li>Collaborated within a cross-functional team on real-life production projects, delivering
+                        features on schedule across a 3-month training cycle</li>
+                </ul>
+            </div>
 
-  /* Validation */
-  if (!name || !email || !message) {
-    errorEl.textContent = 'Please fill in all fields before sending.';
-    errorEl.style.display = 'block';
-    return;
-  }
-  const emailOk = /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
-  if (!emailOk) {
-    errorEl.textContent = 'Please enter a valid email address.';
-    errorEl.style.display = 'block';
-    return;
-  }
-  errorEl.style.display = 'none';
+            <div class="tl-item">
+                <div class="tl-dot"></div>
+                <div class="tl-date">Mar 2025 — Aug 2025</div>
+                <div class="tl-role">Penetration Tester</div>
+                <div class="tl-company">Google Developer Groups — CIC <span class="tl-tag">Remote</span></div>
+                <ul class="tl-bullets">
+                    <li>Simulated real-world cyberattacks in controlled environments to identify and report system
+                        vulnerabilities</li>
+                    <li>Applied attacker mindset methodologies to conduct thorough security assessments across web and
+                        network targets</li>
+                    <li>Strengthened defensive security posture by translating offensive findings into actionable
+                        remediation recommendations</li>
+                </ul>
+            </div>
 
-  /* Build mailto and open default mail client */
-  const to      = 'tokasayedm@gmail.com';
-  const subject = encodeURIComponent(`Portfolio message from ${name}`);
-  const body    = encodeURIComponent(
-    `Name: ${name}\nEmail: ${email}\n\n${message}`
-  );
-  window.location.href = `mailto:${to}?subject=${subject}&body=${body}`;
+            <div class="tl-item">
+                <div class="tl-dot"></div>
+                <div class="tl-date">Feb 2025</div>
+                <div class="tl-role">Frontend Web Developer</div>
+                <div class="tl-company">Vodafone Egypt <span class="tl-tag">Hybrid</span></div>
+                <ul class="tl-bullets">
+                    <li>Developed responsive web interfaces using HTML5, CSS3, and Bootstrap 5, applying modern UI/UX
+                        best practices</li>
+                    <li>Utilized Git and GitHub for version control and collaborative code management across a 3-member
+                        team project</li>
+                    <li>Led team of 3 developers in final competition project, achieving 4th place out of all competing
+                        teams</li>
+                </ul>
+            </div>
 
-  /* Button feedback */
-  btn.textContent = '✓ Opening mail app…';
-  btn.style.background = '#222';
-  btn.style.color = '#888';
-  setTimeout(() => {
-    btn.textContent = 'Send Message';
-    btn.style.background = '';
-    btn.style.color = '';
-  }, 4000);
-}
-</script>
+        </div>
+    </section>
+
+    <!-- EDUCATION -->
+    <section id="education" class="section-notop">
+        <div class="sec-header">
+            <span class="sec-num">03</span>
+            <h2 class="sec-title">Education</h2>
+            <div class="sec-line"></div>
+        </div>
+
+        <div class="edu-card">
+            <div>
+                <div class="edu-degree">B.Sc. Computer Science — Mathematics Department</div>
+                <div class="edu-school">Assiut University &nbsp;·&nbsp; 2024 — 2028 (Expected)</div>
+                <div class="edu-pills">
+                    <span class="edu-pill">MATLAB</span>
+                    <span class="edu-pill">Java</span>
+                    <span class="edu-pill">OOP</span>
+                    <span class="edu-pill">Teamwork</span>
+                    <span class="edu-pill">Logical Thinking</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="subsec-label" style="margin-top:52px">// Achievements</div>
+        <div class="achieve-grid">
+
+            <div class="achieve-card">
+                <div class="achieve-icon">
+                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                        stroke-width="1.6">
+                        <path
+                            d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" />
+                    </svg>
+                </div>
+                <div class="achieve-body">
+                    <div class="achieve-title">4th Place — Vodafone Egypt Competition</div>
+                    <div class="achieve-sub">Frontend Web Dev · Feb 2025 · Led 3-member team out of all competing teams
+                    </div>
+                </div>
+            </div>
+
+            <div class="achieve-card">
+                <div class="achieve-icon">
+                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                        stroke-width="1.6">
+                        <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
+                    </svg>
+                </div>
+                <div class="achieve-body">
+                    <div class="achieve-title">TryHackMe — Rank #22,044 · Top 1% Globally</div>
+                    <div class="achieve-sub">Profile: z30r0x · Cybersecurity challenges &amp; CTFs</div>
+                </div>
+            </div>
+
+            <div class="achieve-card">
+                <div class="achieve-icon">
+                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                        stroke-width="1.6">
+                        <path
+                            d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z" />
+                    </svg>
+                </div>
+                <div class="achieve-body">
+                    <div class="achieve-title">Hack2Win — Silver Raffle Winner ×2</div>
+                    <div class="achieve-sub">TryHackMe international competition · Earned T-shirt &amp; $10 Swag Voucher
+                        · Top-performing users by room completion &amp; challenge engagement</div>
+                </div>
+            </div>
+
+            <div class="achieve-card">
+                <div class="achieve-icon">
+                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                        stroke-width="1.6">
+                        <polyline points="16 18 22 12 16 6" />
+                        <polyline points="8 6 2 12 8 18" />
+                    </svg>
+                </div>
+                <div class="achieve-body">
+                    <div class="achieve-title">Codeforces — Contest Rating 398</div>
+                    <div class="achieve-sub">Handle: toka_sayed · Competitive programming</div>
+                </div>
+            </div>
+
+            <div class="achieve-card">
+                <div class="achieve-icon">
+                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                        stroke-width="1.6">
+                        <path d="M22 10v6M2 10l10-5 10 5-10 5z" />
+                        <path d="M6 12v5c3 3 9 3 12 0v-5" />
+                    </svg>
+                </div>
+                <div class="achieve-body">
+                    <div class="achieve-title">Assiut University — GPA 3.4 / 4.0</div>
+                    <div class="achieve-sub">B.Sc. Computer Science · Mathematics Dept. · 2024–2028</div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="subsec-label" style="margin-top:52px">// Certificates</div>
+        <div class="certs-grid">
+
+            <div class="cert-card">
+                <div class="cert-name">Advent of Cyber 2025</div>
+                <div class="cert-issuer">TryHackMe · December 2025</div>
+                <div class="cert-skills">24 cybersecurity challenges · Cyber Fundamentals · Consistency &amp; Tenacity
+                </div>
+            </div>
+
+            <div class="cert-card">
+                <div class="cert-name">Introduction to Kali Linux Basics</div>
+                <div class="cert-issuer">Simplilearn SkillUp · September 2025</div>
+                <div class="cert-skills">Kali Linux · Ethical Hacking Fundamentals · Linux CLI</div>
+            </div>
+
+            <div class="cert-card">
+                <div class="cert-name">Pre Security Path</div>
+                <div class="cert-issuer">TryHackMe · Aug — Sep 2025</div>
+                <div class="cert-skills">Networking Fundamentals · Linux Commands · HTTP/HTTPS · Cybersecurity
+                    Foundations</div>
+            </div>
+
+            <div class="cert-card">
+                <div class="cert-name">McKinsey Forward Program</div>
+                <div class="cert-issuer">McKinsey.org · July 2025</div>
+                <div class="cert-skills">Problem-Solving Frameworks · Effective Communication · Adaptability ·
+                    Resilience · Digital Toolkit</div>
+            </div>
+
+            <div class="cert-card">
+                <div class="cert-name">Digital Forensics Fundamentals</div>
+                <div class="cert-issuer">Netriders · 2025</div>
+                <div class="cert-skills">Digital Forensics · Incident Investigation · Arabic Cybersecurity Platform
+                </div>
+            </div>
+
+            <div class="cert-card">
+                <div class="cert-name">EF SET English Certificate — B2 Upper Intermediate</div>
+                <div class="cert-issuer">EF SET · January 2025</div>
+                <div class="cert-skills">Score: 59/100 · Reading: B2 · Listening: C1 · Writing: C1 · Speaking: B2</div>
+            </div>
+
+            <div class="cert-card">
+                <div class="cert-name">My Turkish Course A1</div>
+                <div class="cert-issuer">Online Language Support (Erasmus+ / European Solidarity Corps) · August 2025
+                </div>
+                <div class="cert-skills">Score: 73.33% · Recommended to advance to A2 level</div>
+            </div>
+
+            <div class="cert-card">
+                <div class="cert-name">Introduction to Frontend Development</div>
+                <div class="cert-issuer">Meta | Coursera · Feb — Apr 2023</div>
+                <div class="cert-skills">CSS · HTML · JavaScript · React.js · Bootstrap</div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="section-notop">
+        <div class="sec-header">
+            <span class="sec-num">04</span>
+            <h2 class="sec-title">Projects</h2>
+            <div class="sec-line"></div>
+        </div>
+        <div class="proj-filter">
+            <button class="filter-btn active" onclick="filterProjects('all', this)">All</button>
+            <button class="filter-btn" onclick="filterProjects('web', this)">Web</button>
+            <button class="filter-btn" onclick="filterProjects('mobile', this)">Mobile</button>
+            <button class="filter-btn" onclick="filterProjects('security', this)">Security</button>
+        </div>
+        <div class="proj-grid" id="projGrid">
+            <div class="gh-loading">
+                <div class="gh-spinner"></div>
+                <span>Fetching GitHub repositories…</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section-notop">
+        <div class="sec-header">
+            <span class="sec-num">05</span>
+            <h2 class="sec-title">Contact</h2>
+            <div class="sec-line"></div>
+        </div>
+        <div class="contact-grid">
+            <div class="contact-left">
+                <h3>Let's build<br><em>something</em><br>together.</h3>
+                <p>Open to internships, freelance projects, and full-time opportunities. Have a Flutter app or frontend
+                    idea? Let's talk.</p>
+                <div class="contact-items">
+                    <a href="mailto:toka.sayed.ahmed@outlook.com" class="contact-item">
+                        <span class="ci-icon">✉️</span>
+                        <div>
+                            <div class="ci-label">Email</div>
+                            <div class="ci-val">toka.sayed.ahmed@outlook.com</div>
+                        </div>
+                    </a>
+                    <a href="https://linkedin.com/in/TokaSayed" target="_blank" class="contact-item">
+                        <span class="ci-icon">💼</span>
+                        <div>
+                            <div class="ci-label">LinkedIn</div>
+                            <div class="ci-val">linkedin.com/in/TokaSayed</div>
+                        </div>
+                    </a>
+                    <a href="https://github.com/z30r0x" target="_blank" class="contact-item">
+                        <span class="ci-icon">🐙</span>
+                        <div>
+                            <div class="ci-label">GitHub</div>
+                            <div class="ci-val">github.com/z30r0x</div>
+                        </div>
+                    </a>
+                    <a href="https://drive.google.com/drive/folders/1hTnt0r2Ajoc7QWCSgwHTVSe5VN4c9V_M?usp=sharing"
+                        target="_blank" class="contact-item">
+                        <span class="ci-icon">📄</span>
+                        <div>
+                            <div class="ci-label">Resume / CV</div>
+                            <div class="ci-val">Download CV</div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div>
+                <div class="contact-form">
+                    <div class="form-group">
+                        <label class="form-label" for="form-name">Name</label>
+                        <input id="form-name" type="text" class="form-input" placeholder="Your name" />
+                    </div>
+                    <div class="form-group">
+                        <label class="form-label" for="form-email">Email</label>
+                        <input id="form-email" type="email" class="form-input" placeholder="your@email.com" />
+                    </div>
+                    <div class="form-group">
+                        <label class="form-label" for="form-message">Message</label>
+                        <textarea id="form-message" class="form-textarea"
+                            placeholder="Tell me about your project…"></textarea>
+                    </div>
+                    <div id="form-error" style="display:none;font-size:.75rem;color:#e05555;margin-top:-4px;"></div>
+                    <button class="form-submit" onclick="handleSubmit(this)">Send Message</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-brand">Toka Sayed</div>
+        <div class="footer-text">© 2026 — Junior Flutter Mobile Developer</div>
+        <div class="footer-links">
+            <a href="https://github.com/z30r0x" target="_blank">GitHub</a>
+            <a href="https://linkedin.com/in/TokaSayed" target="_blank">LinkedIn</a>
+            <a href="mailto:toka.sayed.ahmed@outlook.com">Email</a>
+            <a href="https://drive.google.com/drive/folders/1hTnt0r2Ajoc7QWCSgwHTVSe5VN4c9V_M?usp=sharing"
+                target="_blank">CV</a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
+
 </html>
