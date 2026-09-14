@@ -66,8 +66,17 @@ function getFallbackBanner(p) {
     return BANNERS.default_web;
 }
 
-/* ── Projects — exact data from CV & repo links ── */
+/* ── Projects ── */
 const PROJECTS = [
+    {
+        name: 'Task Tracker',
+        desc: 'A Flutter task management app (built for Nafezly) that lets users create, categorize, prioritize, and complete tasks with local persistence. Features category filtering, a Completed page, accent color customization (green, blue, cyan), language preferences, and shared DataPulse design tokens.',
+        lang: 'Dart, Flutter',
+        type: 'mobile',
+        year: '2026',
+        url: 'https://github.com/z30r0x',
+        image: 'images/tasktracker.jpg'
+    },
     {
         name: 'BMI Calculator',
         desc: 'A simple UI app that calculates Body Mass Index based on the user\'s weight and height, with real-time health classification, custom UI widgets, and input validation.',
@@ -177,7 +186,7 @@ function filterProjects(type, btn) {
     });
 }
 
-/* ── Always render from PROJECTS (canonical source of truth) ── */
+/* ── Render on load ── */
 renderProjects(PROJECTS);
 
 /* ── Contact form ── */
@@ -187,7 +196,6 @@ function handleSubmit(btn) {
     const message = document.getElementById('form-message').value.trim();
     const errorEl = document.getElementById('form-error');
 
-    /* Validation */
     if (!name || !email || !message) {
         errorEl.textContent = 'Please fill in all fields before sending.';
         errorEl.style.display = 'block';
@@ -201,15 +209,11 @@ function handleSubmit(btn) {
     }
     errorEl.style.display = 'none';
 
-    /* Build mailto and open default mail client */
     const to = 'toka.sayed.ahmed@outlook.com';
     const subject = encodeURIComponent(`Portfolio message from ${name}`);
-    const body = encodeURIComponent(
-        `Name: ${name}\nEmail: ${email}\n\n${message}`
-    );
+    const body = encodeURIComponent(`Name: ${name}\nEmail: ${email}\n\n${message}`);
     window.location.href = `mailto:${to}?subject=${subject}&body=${body}`;
 
-    /* Button feedback */
     btn.textContent = '✓ Opening mail app…';
     btn.style.background = '#222';
     btn.style.color = '#888';
