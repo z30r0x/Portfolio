@@ -75,6 +75,7 @@ const PROJECTS = [
         type: 'mobile',
         year: '2026',
         url: 'https://toka-task-tracker-app.vercel.app/',
+        linkText: 'View Live Demo →',
         image: 'images/tasktracker.jpg'
     },
     {
@@ -170,7 +171,7 @@ function renderProjects(list) {
         <div class="proj-skills">
           ${p.lang.split(',').map(t => `<span class="skill-tag">${t.trim()}</span>`).join('')}
         </div>
-        <a href="${p.url}" target="_blank" class="proj-link">View on GitHub →</a>
+        <a href="${p.url}" target="_blank" class="proj-link">${p.linkText || 'View on GitHub →'}</a>
       </div>
     </div>
   `).join('');
