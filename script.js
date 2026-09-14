@@ -74,7 +74,7 @@ const PROJECTS = [
         lang: 'Dart, Flutter',
         type: 'mobile',
         year: '2026',
-        url: 'https://github.com/z30r0x',
+        url: 'https://toka-task-tracker-app.vercel.app/',
         image: 'images/tasktracker.jpg'
     },
     {
