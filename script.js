@@ -84,7 +84,8 @@ const PROJECTS = [
         lang: 'Dart, Flutter',
         type: 'mobile',
         year: '2026',
-        url: 'https://github.com/z30r0x/BMI_calculator',
+        url: 'https://toka-bmi-calculator.vercel.app/',
+        linkText: 'View Live Demo →',
         image: 'images/bmi.png'
     },
     {
