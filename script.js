@@ -69,6 +69,16 @@ function getFallbackBanner(p) {
 /* ── Projects ── */
 const PROJECTS = [
     {
+        name: 'Tech Services Store',
+        desc: 'A Flutter app (built for Nafezly) for browsing, searching, and filtering cloud and cybersecurity services by category, with technical specs, a persistent local cart, quantity management, and a full checkout flow with order simulation. Responsive UI with an iPhone preview frame on web.',
+        lang: 'Flutter, Dart',
+        type: 'mobile',
+        year: '2026',
+        url: 'https://nexis-tech-store.vercel.app/',
+        linkText: 'View Live Demo →',
+        image: 'images/techstore.png'
+    },
+    {
         name: 'Task Tracker',
         desc: 'A Flutter task management app (built for Nafezly) that lets users create, categorize, prioritize, and complete tasks with local persistence. Features category filtering, a Completed page, accent color customization (green, blue, cyan), language preferences, and shared DataPulse design tokens.',
         lang: 'Dart, Flutter',
