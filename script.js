@@ -76,7 +76,7 @@ const PROJECTS = [
         year: '2026',
         url: 'https://nexis-tech-store.vercel.app/',
         linkText: 'View Live Demo →',
-        image: 'images/techstore.png'
+        image: 'images/nexistechstore.png'
     },
     {
         name: 'Task Tracker',
@@ -96,7 +96,7 @@ const PROJECTS = [
         year: '2026',
         url: 'https://toka-bmi-calculator.vercel.app/',
         linkText: 'View Live Demo →',
-        image: 'images/bmi.png'
+        image: 'images/bmicalculator.png'
     },
     {
         name: 'Notes App',
