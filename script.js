@@ -69,6 +69,16 @@ function getFallbackBanner(p) {
 /* ── Projects ── */
 const PROJECTS = [
     {
+        name: 'KlugMind',
+        desc: 'An AI-powered Flutter study planner that turns notes, voice dictation, PDFs, photos, and syllabi into prioritized study tasks, flashcards, and quiz content. Uses OCR and local LLMs (Ollama). Built for the Beginner\'s Paradise – FirstCommit hackathon.',
+        lang: 'Flutter, Dart, AI, Ollama, OCR, Machine Learning',
+        type: 'mobile',
+        year: '2026',
+        url: 'https://devpost.com/software/klugmind',
+        linkText: 'View on Devpost →',
+        image: 'images/klugmind.jpg'
+    },
+    {
         name: 'Tech Services Store',
         desc: 'A Flutter app (built for Nafezly) for browsing, searching, and filtering cloud and cybersecurity services by category, with technical specs, a persistent local cart, quantity management, and a full checkout flow with order simulation. Responsive UI with an iPhone preview frame on web.',
         lang: 'Flutter, Dart',
