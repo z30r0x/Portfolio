@@ -69,6 +69,16 @@ function getFallbackBanner(p) {
 /* ── Projects ── */
 const PROJECTS = [
     {
+        name: 'Cultus Youth',
+        desc: 'A bilingual (Arabic/English) web hub from the Cultus Youth Telegram community that gathers scholarships, internships, and competitions in one filterable page, with deadlines, apply links, and an in-browser AI matching assistant. Includes a Python Telegram scraper with deadline/link extraction, LLM-assisted titles, and a human-approval flow. Built for the ForgeHacks Online 2026 hackathon.',
+        lang: 'HTML5, CSS3, JavaScript, Python, AI, LLM, Backend',
+        type: 'web',
+        year: '2026',
+        url: 'https://cultusyouth.vercel.app/',
+        linkText: 'View Live Demo →',
+        image: 'images/cultusyouth.png'
+    },
+    {
         name: 'KlugMind',
         desc: 'An AI-powered Flutter study planner that turns notes, voice dictation, PDFs, photos, and syllabi into prioritized study tasks, flashcards, and quiz content. Uses OCR and local LLMs (Ollama). Built for the Beginner\'s Paradise – FirstCommit hackathon.',
         lang: 'Flutter, Dart, AI, Ollama, OCR, Machine Learning',
